@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<string name="hello">Hello World, CalculatorActivity!</string> -->
+    <string name="app_name">Calculator</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="buttonDiv">÷</string>
+    <string name="buttonMul">×</string>
+    <string name="buttonMin">-</string>
+    <string name="buttonPlus">+</string>
+    <string name="buttonPlusMin">±</string>
+    <string name="button0">0</string>
+    <string name="buttonDot">.</string>
+    <string name="buttonEqual">=</string>
+    <string name="buttonClr">C</string>
+    <string name="buttonMemClr">MC</string>
+    <string name="buttonMemRead">MR</string>
+    <string name="button11">M+</string>
+    <string name="buttonHst">H</string>
+    <string name="buttonSqr">×²</string>
+    <string name="button1byX">1/x</string>
+
+    <string name="buttonBack">back</string>
+    <string name="buttonClrHst">Clear</string>
+
+
+
+</resources>

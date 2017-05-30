@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonBack"
+            android:id="@+id/buttonBack"
+            android:layout_gravity="center_horizontal"
+            android:onClick="finishActivity"/>
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonClrHst"
+            android:id="@+id/buttonClrHst"
+            android:onClick="ClearHistory"/>
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextHst"
+
+            android:textSize="30sp"
+            android:scrollbars = "horizontal"
+            android:fillViewport="true"/>
+    </ScrollView>
+
+</LinearLayout>
